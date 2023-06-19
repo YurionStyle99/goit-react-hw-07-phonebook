@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 
 const App = () => {
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     dispatch(fetchContacts());
   }, [dispatch]);
@@ -24,5 +24,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;
